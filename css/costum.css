@@ -1,0 +1,73 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 250px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: auto;
+}
+
+.non-hover-dropdown-item:hover {
+  background: none;
+}
+
+@media screen and ( min-width: 0px ) {
+  body {
+     margin-bottom: 650px;
+  }
+}
+
+@media screen and ( min-width: 360px ) {
+  body {
+     margin-bottom: 550px;
+  }
+}
+
+@media screen and ( min-width: 576px ) {
+  body {
+     margin-bottom: 450px;
+  }
+}
+
+@media screen and ( min-width: 768px ) {
+  body {
+     margin-bottom: 350px;
+  }
+}
+
+@media screen and ( min-width: 992px ) {
+  body {
+     margin-bottom: 250px;
+  }
+}
+.active-border-bottom {
+  height: 2px;
+  background: rgba(255,255,255,1);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(91,181,222,0.5) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(91,181,222,0.5)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(91,181,222,0.5) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(91,181,222,0.5) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(91,181,222,0.5) 100%);
+  background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(91,181,222,0.5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#5bb5de', GradientType=1 );
+}
+.nav-border-bottom{
+  height: 2px;  
+  background: rgba(0,0,0,1);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 0%, rgba(255,255,255,0.55) 50%, rgba(255,255,255,0.1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(0,0,0,1)), color-stop(50%, rgba(255,255,255,0.55)), color-stop(100%, rgba(255,255,255,0.1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 0%, rgba(255,255,255,0.55) 50%, rgba(255,255,255,0.1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 0%, rgba(255,255,255,0.55) 50%, rgba(255,255,255,0.1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(0,0,0,1) 0%, rgba(255,255,255,0.55) 50%, rgba(255,255,255,0.1) 100%);
+  background: radial-gradient(ellipse at center, rgba(0,0,0,1) 0%, rgba(255,255,255,0.55) 50%, rgba(255,255,255,0.1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff', GradientType=1 );
+}
